@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="container mt-5" style="max-width: 750px">
+    <h2 class="text-center">Todo App</h2>
     <form action="" method="post" class="my-5 align-items-center" @submit.prevent="createNewTodo">
       <div class="row g-2">
         <input
